@@ -36,6 +36,13 @@ type RidBag struct {
 func (bag *RidBag) SetOwner(doc *Document) {
 	bag.owner = doc
 }
+func (bag *RidBag)GetEmbededLinks()([]OIdentifiable){
+	links := []OIdentifiable{}
+	if (!bag.IsRemote()){
+		links = bag.delegate.(*embeddedRidBag).links
+	}
+	return links
+}
 func (bag *RidBag) FromStream(r io.Reader) error {
 	br := rw.NewReader(r)
 	first := br.ReadByte()
