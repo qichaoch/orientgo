@@ -2,7 +2,7 @@ package obinary
 
 import (
 	"fmt"
-	"gopkg.in/istreamdata/orientgo.v2"
+	"github.com/qichaoch/orientgo"
 	"regexp"
 	"strings"
 )

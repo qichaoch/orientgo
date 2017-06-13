@@ -1,4 +1,4 @@
-package orient // import "gopkg.in/istreamdata/orientgo.v2"
+package orient // import "github.com/qichaoch/orientgo"
 
 import (
 	"encoding/json"
@@ -58,7 +58,7 @@ const (
 //
 // For now, user must import protocol implementation, which will be used for connection:
 //
-//		import _  "gopkg.in/istreamdata/orientgo.v2/obinary"
+//		import _  "github.com/qichaoch/orientgo/obinary"
 //
 // Address must be in host:port format. Connection to OrientDB cluster is not supported yet.
 //

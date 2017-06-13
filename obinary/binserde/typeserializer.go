@@ -5,8 +5,8 @@ import (
 	"io"
 	"reflect"
 
-	"gopkg.in/istreamdata/orientgo.v2"
-	"gopkg.in/istreamdata/orientgo.v2/obinary/rw"
+	"github.com/qichaoch/orientgo"
+	"github.com/qichaoch/orientgo/obinary/rw"
 )
 
 // There is apparently a second "binary serialization" system

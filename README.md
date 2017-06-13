@@ -1,6 +1,6 @@
 # Overview
 [![Build Status](https://travis-ci.org/istreamdata/orientgo.svg?branch=v2)](https://travis-ci.org/istreamdata/orientgo)
-[![GoDoc](https://godoc.org/gopkg.in/istreamdata/orientgo.v2?status.svg)](https://godoc.org/gopkg.in/istreamdata/orientgo.v2)
+[![GoDoc](https://godoc.org/github.com/qichaoch/orientgo?status.svg)](https://godoc.org/github.com/qichaoch/orientgo)
 
 **OrientGo** is a Go client for the [OrientDB](http://orientdb.com/orientdb/) database.
 
@@ -25,8 +25,8 @@ Original ogonori API is deprecated. Still, it's source code have been frozen in 
 To use it, simply replace `github.com/quux00/ogonori` imports with `gopkg.in/istreamdata/orientgo.v1`.
 
 ### Supported features:
-- Mostly any SQL [queries](http://godoc.org/gopkg.in/istreamdata/orientgo.v2#SQLQuery), [commands](http://godoc.org/gopkg.in/istreamdata/orientgo.v2#SQLCommand) and [batch requests](http://godoc.org/gopkg.in/istreamdata/orientgo.v2#ScriptCommand).
-- Server-side scripts (via [ScriptCommand](http://godoc.org/gopkg.in/istreamdata/orientgo.v2#ScriptCommand) or [functions](http://godoc.org/gopkg.in/istreamdata/orientgo.v2#Function)).
+- Mostly any SQL [queries](http://godoc.org/github.com/qichaoch/orientgo#SQLQuery), [commands](http://godoc.org/github.com/qichaoch/orientgo#SQLCommand) and [batch requests](http://godoc.org/github.com/qichaoch/orientgo#ScriptCommand).
+- Server-side scripts (via [ScriptCommand](http://godoc.org/github.com/qichaoch/orientgo#ScriptCommand) or [functions](http://godoc.org/github.com/qichaoch/orientgo#Function)).
 - Command results conversion to custom types via [mapstructure](http://github.com/mitchellh/mapstructure).
 - Direct CRUD operations on `Document` or `BytesRecord` objects.
 - Management of databases and record clusters.

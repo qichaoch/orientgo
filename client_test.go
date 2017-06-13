@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"gopkg.in/istreamdata/orientgo.v2"
+	"github.com/qichaoch/orientgo"
 )
 
 func init() {

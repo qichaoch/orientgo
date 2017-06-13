@@ -20,10 +20,10 @@ matrix:
       env: ORIENT_VERS=2.0
 
 install:
-  - mkdir -p $GOPATH/src/gopkg.in/istreamdata
-  - mv $TRAVIS_BUILD_DIR $GOPATH/src/gopkg.in/istreamdata/orientgo.v2
-  - export TRAVIS_BUILD_DIR=$GOPATH/src/gopkg.in/istreamdata/orientgo.v2
-  - cd $GOPATH/src/gopkg.in/istreamdata/orientgo.v2
+  - mkdir -p $GOPATH/src/github.com/qichaoch
+  - mv $TRAVIS_BUILD_DIR $GOPATH/src/github.com/qichaoch/orientgo
+  - export TRAVIS_BUILD_DIR=$GOPATH/src/github.com/qichaoch/orientgo
+  - cd $GOPATH/src/github.com/qichaoch/orientgo
   - docker pull dennwc/orientdb:${ORIENT_VERS}
 #  - go get golang.org/x/tools/cmd/cover
 #  - go get github.com/golang/lint/golint

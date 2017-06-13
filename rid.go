@@ -4,7 +4,7 @@ package orient
 
 import (
 	"fmt"
-	"gopkg.in/istreamdata/orientgo.v2/obinary/rw"
+	"github.com/qichaoch/orientgo/obinary/rw"
 	"io"
 	"strconv"
 	"strings"

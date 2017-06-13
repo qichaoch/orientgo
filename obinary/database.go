@@ -1,7 +1,7 @@
 package obinary
 
 import (
-	"gopkg.in/istreamdata/orientgo.v2"
+	"github.com/qichaoch/orientgo"
 	"strconv"
 	"strings"
 	"sync"

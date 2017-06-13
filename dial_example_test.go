@@ -3,8 +3,8 @@ package orient_test
 import (
 	"testing"
 
-	"gopkg.in/istreamdata/orientgo.v2"
-	_ "gopkg.in/istreamdata/orientgo.v2/obinary"
+	"github.com/qichaoch/orientgo"
+	_ "github.com/qichaoch/orientgo/obinary"
 )
 
 // Dial example

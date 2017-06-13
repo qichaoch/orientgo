@@ -14,7 +14,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/istreamdata/orientgo.v2"
+	"github.com/qichaoch/orientgo"
 )
 
 // Flags - specify these on the cmd line to change from the defaults
